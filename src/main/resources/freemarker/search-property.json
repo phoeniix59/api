@@ -1,0 +1,19 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "query_string": {
+            "query": "${keywords?json_string}",
+            "analyzer": "french_text_analyzer",
+            "type": "cross_fields",
+            "fields": [
+              "characteristics"
+            ],
+            "default_operator": "OR"
+          }
+        }
+      ]
+    }
+  }
+}
