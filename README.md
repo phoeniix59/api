@@ -15,5 +15,5 @@ Installer et lancer Docker : https://www.docker.com/get-started
 ```
 
 ```bash
-2 - Run ApiApplication
+2 - Run ApiApplication (clic droit sur ApiApplication puis Run)
 ```
