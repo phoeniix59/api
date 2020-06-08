@@ -2,7 +2,7 @@
 
 ### Setup :
 ```bash
-Configurer votre IDE avec un JDK 14
+Configurer votre IDE avec un JDK 11
 ```
 ```bash
 Installer et lancer Docker : https://www.docker.com/get-started
@@ -15,5 +15,5 @@ Installer et lancer Docker : https://www.docker.com/get-started
 ```
 
 ```bash
-2 - Run ApiApplication (clic droit sur ApiApplication puis Run)
+2 - Run src\main\java\com\project\api\ApiApplication (clic droit sur ApiApplication puis Run)
 ```
